@@ -1,0 +1,110 @@
+/*Global styles*/
+
+@font-face {
+  font-family: "Dubai Light";
+  src: url("dubai-light.ttf") format(ttf);
+}
+
+body {
+  font-family: "dubai-light", Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+a {
+  border: 2px #2a7009;
+  color: #2a7009;
+}
+
+header img {
+  width: 100%;
+}
+
+.logo {
+  margin: 0px auto;
+  max-width: 1206px;
+}
+
+.menu {
+  border: 5px solid #fbd200;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+i {
+  color: #ed8e00;
+}
+
+footer {
+  border: 5px solid #fbd200;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Mobile and tablet styles*/
+@media only screen and (max-width: 834px) {
+  body {
+    font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  li {
+    font-size: 1rem;
+    display: block;
+  }
+  i {
+    font-size: 1.5rem;
+  }
+  nav,
+  #hamburger-menu {
+    display: none;
+  }
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
+}
+
+/*Desktop styles*/
+@media only screen and (min-width: 835px) {
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  li {
+    font-size: 1.2rem;
+    display: inline-block;
+  }
+  i {
+    font-size: 1.6rem;
+  }
+  .hamburger-label,
+  #hamburger-menu {
+    display: none;
+  }
+}
