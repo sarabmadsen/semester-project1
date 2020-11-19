@@ -100,9 +100,20 @@ footer {
     font-size: 1.2rem;
     display: inline-block;
     margin: 0 2rem;
+    padding: 10px;
+  }
+  li:hover {
+    background-color: #ed8e00;
   }
   i {
     font-size: 1.6rem;
+  }
+  i:hover {
+    color: #2a7009;
+  }
+  a {
+    border: 2px #2a7009;
+    color: #2a7009;
   }
   .hamburger-label,
   #hamburger-menu {
