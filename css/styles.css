@@ -99,6 +99,7 @@ footer {
   li {
     font-size: 1.2rem;
     display: inline-block;
+    margin: 0 2rem;
   }
   i {
     font-size: 1.6rem;
@@ -106,5 +107,9 @@ footer {
   .hamburger-label,
   #hamburger-menu {
     display: none;
+  }
+  .left-icons {
+    display: flex;
+    flex-direction: row;
   }
 }
