@@ -1,9 +1,33 @@
 /*Global styles*/
 
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+main img {
+  max-width: 408px;
+  width: 100%;
+}
+
+.long img {
+  max-width: 1334px;
+}
+
 /*Mobile and tablet styles*/
+
 @media only screen and (max-width: 834px) {
+  .explore h2 {
+    margin: 0 auto;
+  }
+  main {
+    max-width: 834px;
+    margin: 0 auto;
+  }
 }
 
 /*Desktop styles*/
+
 @media only screen and (min-width: 835px) {
 }

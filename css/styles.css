@@ -20,8 +20,9 @@ h1 {
 }
 
 h2 {
-  font-family: "cooper-black-regular", Impact, Haettenschweiler,
-    "Arial Narrow Bold", sans-serif;
+  font-family: "cooper-black-regular", Impact, "Arial Narrow Bold", sans-serif;
+  padding-top: 25px;
+  margin: 0;
 }
 
 a {
@@ -81,6 +82,24 @@ footer p {
 
 .current {
   text-decoration: underline;
+}
+
+.yellow {
+  background-color: #fbd200;
+  max-width: 408px;
+  min-height: 60px;
+}
+
+.orange {
+  background-color: #ed8e00;
+  max-width: 408px;
+  min-height: 60px;
+}
+
+.green {
+  background-color: #2a7009;
+  max-width: 408px;
+  min-height: 60px;
 }
 
 /*Mobile and tablet styles*/
