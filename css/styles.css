@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Dubai Light";
-  src: url("css/dubai-light.ttf") format("truetype");
+  src: url("dubai-light.ttf") format("truetype");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "dubai-light", Arial, Helvetica, sans-serif;
+  font-family: "Dubai Light", Arial, Helvetica, sans-serif;
   margin: 0px;
 }
 
@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-family: "cooper-black-regular", Impact, "Arial Narrow Bold", sans-serif;
+  font-family: "Cooper Black Regular", Impact, "Arial Narrow Bold", sans-serif;
   padding-top: 25px;
   margin: 0;
   text-align: center;
@@ -118,6 +118,7 @@ footer p {
   -webkit-box-shadow: 5px 5px 15px -3px #000000;
   box-shadow: 5px 5px 15px -3px #000000;
   margin: 2rem auto;
+  font-weight: bold;
 }
 
 /*Mobile and tablet styles*/
@@ -129,13 +130,13 @@ footer p {
     font-size: 2rem;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   h3 {
     font-size: 1.5rem;
   }
   li {
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: block;
     padding: 5px;
   }
@@ -170,7 +171,7 @@ footer p {
     font-size: 2rem;
   }
   li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: inline-block;
     margin: 0 1.5rem;
     padding: 10px;
