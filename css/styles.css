@@ -119,6 +119,7 @@ footer p {
   li {
     font-size: 1rem;
     display: block;
+    padding: 5px;
   }
   i {
     font-size: 1.5rem;
@@ -153,7 +154,7 @@ footer p {
   li {
     font-size: 1.2rem;
     display: inline-block;
-    margin: 0 2rem;
+    margin: 0 1.5rem;
     padding: 10px;
   }
   li:hover {

@@ -18,16 +18,43 @@ main img {
 /*Mobile and tablet styles*/
 
 @media only screen and (max-width: 834px) {
-  .explore h2 {
-    margin: 0 auto;
-  }
   main {
-    max-width: 834px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    max-width: 408px;
+    margin: 1rem 0;
   }
 }
 
 /*Desktop styles*/
 
 @media only screen and (min-width: 835px) {
+  .yellow {
+    grid-area: yellowarea;
+  }
+  .orange {
+    grid-area: orangearea;
+  }
+  .green {
+    grid-area: greenarea;
+  }
+  .image1 {
+    grid-area: image1;
+  }
+  .image2 {
+    grid-area: image2;
+  }
+  .image3 {
+    grid-area: image3;
+  }
+  .explore {
+    display: grid;
+    grid-template-areas:
+      "yellowarea orangearea greenarea"
+      "image1 image2 image3";
+    justify-content: center;
+  }
 }
