@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Dubai Light";
-  src: url("css/dubai-light.ttf") format(ttf);
+  src: url("css/dubai-light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Cooper Black Regular";
-  src: url("cooper-black-regular.ttf") format(ttf);
+  src: url("cooper-black-regular.ttf") format("truetype");
 }
 
 body {
