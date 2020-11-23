@@ -17,12 +17,18 @@ body {
 
 h1 {
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
   font-family: "cooper-black-regular", Impact, "Arial Narrow Bold", sans-serif;
   padding-top: 25px;
   margin: 0;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
 
 a {
@@ -106,7 +112,7 @@ footer p {
 /*Mobile and tablet styles*/
 @media only screen and (max-width: 834px) {
   body {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
   }
   h1 {
     font-size: 2rem;

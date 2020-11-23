@@ -1,0 +1,54 @@
+/*Global styles*/
+
+p {
+  max-width: 408px;
+}
+
+main img {
+  max-width: 408px;
+  width: 100%;
+}
+
+/*Mobile and tablet styles*/
+@media only screen and (max-width: 834px) {
+  .explore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    margin: 1rem 0;
+  }
+}
+
+/*Desktop styles*/
+@media only screen and (min-width: 835px) {
+  .explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    margin: 2%;
+  }
+  .box1 img:hover {
+    border: solid 5px #fbd200;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  .box2 img:hover {
+    border: solid 5px #ed8e00;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  .box3 img:hover {
+    border: solid 5px #2a7009;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+}
