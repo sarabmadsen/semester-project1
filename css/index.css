@@ -74,10 +74,29 @@ main img {
     grid-gap: 1rem;
     justify-content: center;
   }
-  .box1:hover {
+  .box1,
+  .box2,
+  .box3 {
+    margin: 2%;
+  }
+  .box1 img:hover,
+  .long img:hover,
+  .news img:hover {
     border: solid 5px #fbd200;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
   }
   .box2 img:hover {
     border: solid 5px #ed8e00;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  .box3 img:hover {
+    border: solid 5px #2a7009;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
   }
 }
