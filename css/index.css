@@ -23,7 +23,9 @@ main img {
     flex-direction: column;
     align-items: center;
   }
-  .text {
+  .text1,
+  .text2,
+  .text3 {
     max-width: 408px;
     margin: 1rem 0;
   }
@@ -32,29 +34,50 @@ main img {
 /*Desktop styles*/
 
 @media only screen and (min-width: 835px) {
-  .yellow {
-    grid-area: yellowarea;
-  }
-  .orange {
-    grid-area: orangearea;
-  }
-  .green {
-    grid-area: greenarea;
-  }
-  .image1 {
-    grid-area: image1;
-  }
-  .image2 {
-    grid-area: image2;
-  }
-  .image3 {
-    grid-area: image3;
-  }
   .explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .long {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .news1 {
+    grid-area: news1;
+  }
+  .text1 {
+    grid-area: text1;
+    max-width: 537px;
+  }
+  .news2 {
+    grid-area: news2;
+  }
+  .text2 {
+    grid-area: text2;
+    max-width: 537px;
+  }
+  .news3 {
+    grid-area: news3;
+  }
+  .text3 {
+    grid-area: text3;
+    max-width: 537px;
+  }
+  .news {
     display: grid;
     grid-template-areas:
-      "yellowarea orangearea greenarea"
-      "image1 image2 image3";
+      "news1 text1"
+      "news2 text2"
+      "news3 text3";
+    grid-gap: 1rem;
     justify-content: center;
+  }
+  .box1:hover {
+    border: solid 5px #fbd200;
+  }
+  .box2 img:hover {
+    border: solid 5px #ed8e00;
   }
 }
