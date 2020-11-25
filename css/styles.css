@@ -84,7 +84,12 @@ footer {
 }
 
 footer p {
-  padding: 5px;
+  padding: 5px 20px;
+}
+
+footer a {
+  color: #ed8e00;
+  padding-right: 20px;
 }
 
 .current {
@@ -115,6 +120,52 @@ footer p {
   border-radius: 20px;
   max-width: 220px;
   text-align: center;
+  -webkit-box-shadow: 5px 5px 15px -3px #000000;
+  box-shadow: 5px 5px 15px -3px #000000;
+  margin: 2rem auto;
+  font-weight: bold;
+}
+
+form {
+  margin: 0 auto;
+  border: solid 5px #7d00a8;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.form__input {
+  display: block;
+  border: solid 5px #7d00a8;
+  border-radius: 20px;
+  max-width: 424px;
+  width: 100%;
+  flex: 1;
+}
+
+form label {
+  flex: 1;
+}
+
+fieldset {
+  border: none;
+}
+
+input[type="submit"] {
+  border: none;
+  color: white;
+  background-color: #7d00a8;
+  border-radius: 20px;
+  max-width: 220px;
+  width: 100%;
+  min-height: 45px;
+  height: 100%;
   -webkit-box-shadow: 5px 5px 15px -3px #000000;
   box-shadow: 5px 5px 15px -3px #000000;
   margin: 2rem auto;
@@ -153,6 +204,9 @@ footer p {
   .navigation {
     justify-content: left;
     width: 100%;
+  }
+  form {
+    max-width: 464px;
   }
 }
 
@@ -196,7 +250,15 @@ footer p {
   .menu {
     align-items: baseline;
   }
-  .button:hover {
+  .button:hover,
+  input[type="submit"]:hover {
     background-color: #2a7009;
+  }
+  form {
+    max-width: 664px;
+  }
+  form div {
+    display: flex;
+    flex-direction: row;
   }
 }

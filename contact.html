@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Community Science Museum | Explore</title>
+        <title>Community Science Museum | Contact</title>
         <meta
          name="description"
-         content="Explore Community Science Museum. For kids, teachers and researchers."
+         content="Contact Community Science Museum. Fill in contact form and send us your message."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/explore.css" rel="stylesheet" />
+        <link href="css/contact.css" rel="stylesheet" />
         <script
          src="https://kit.fontawesome.com/17d5012144.js"
          crossorigin="anonymous"
@@ -30,7 +30,7 @@
                     <input type="checkbox" id="hamburger-menu">
                     <nav>
                         <ul>
-                            <li><a href="explore.html" class="current" >Explore</a></li>
+                            <li><a href="explore.html">Explore</a></li>
                             <li><a href="exhibition-spaces.html">Exibition Spaces</a></li>
                             <li><a href="visit.html">Visit</a></li>
                             <li><a href="news.html">News</a></li>
@@ -43,36 +43,26 @@
             </section>
         </header>
         <main>
-            <h1>Explore</h1>
-            <section class="explore">
-                <div class="box1">
-                    <h2 class="yellow"><a href="explore/kids.html">Kids</a></h2>
-                    <a href="explore/kids.html"><img src="images/kids.jpg" alt="Kid with VR glasses"></a>
-                    <p class="p1">
-                        Are you a young person looking to learn more about 
-                        science? Come on down to our museum, there’s plenty 
-                        to see and do. 
-                    </p>
-                </div>
-                <div class="box2">
-                    <h2 class="orange"><a href="explore/teachers.html">Teachers</a></h2>
-                    <a href="explore/teachers.html"><img src="images/teachers.jpg" alt="Model of heart"></a>
-                    <p class="p2">
-                        As a community-driven museum, we want to work with 
-                        schools to create places of learning and exploring.
-                    </p>
-                </div>
-                <div class="box3">
-                    <h2 class="green"><a href="explore/researchers.html">Researchers</a></h2>
-                    <a href="explore/researchers.html"><img src="images/researchers.jpg" alt="Female researcher in machine"></a>
-                    <p class="p3">
-                        Are you looking to get involved with our team of 
-                        researchers and academics? Our museum offers various 
-                        ways for you to use our resources and contribute 
-                        towards them. 
-                    </p>
-                </div>
-            </section>
+            <h1>Contact</h1>
+            <form action="form-success.php" method="POST">
+                <fieldset>
+                    <div>
+                        <label for="name">Full name</label>
+                        <input type="text" name="name" id="name" class="form__input" required />
+                    </div>
+                    <div>
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="email" class="form__input" required />
+                    </div>
+                    <div>
+                        <label for="message">Write your message here</label>
+                        <textarea id="message" name="message" rows="5" cols="30" class="form__input" required ></textarea>
+                    </div>
+                    <input type="checkbox" id="accept" name="accept" value="accept" required />
+                    <label for="accept">I accept the terms & conditions</label>
+                </fieldset>
+                <input type="submit" value="Send" />
+            </form>
         </main>
         <footer>
             <p>Copyright 2020 &copy</p>
