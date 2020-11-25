@@ -4,7 +4,10 @@
 .text2,
 .text3 {
   border: solid 5px #fbd200;
-  max-width: 670px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  max-width: 664px;
 }
 
 p {
@@ -12,7 +15,7 @@ p {
 }
 
 .main-content img {
-  max-width: 680px;
+  max-width: 664px;
   width: 100%;
 }
 
