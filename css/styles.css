@@ -142,7 +142,7 @@ form div {
 
 .form__input {
   display: block;
-  border: solid 5px #7d00a8;
+  border: solid 3px #7d00a8;
   border-radius: 20px;
   max-width: 424px;
   width: 100%;
@@ -170,6 +170,10 @@ input[type="submit"] {
   box-shadow: 5px 5px 15px -3px #000000;
   margin: 2rem auto;
   font-weight: bold;
+}
+
+#accept:checked {
+  background-color: #7d00a8;
 }
 
 /*Mobile and tablet styles*/
