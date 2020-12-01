@@ -5,8 +5,9 @@ main img {
   width: 100%;
 }
 
-h3 {
+h2 {
   text-align: left;
+  font-family: "Dubai Light", Arial, Helvetica, sans-serif;
 }
 
 /*Mobile and tablet styles*/
@@ -17,7 +18,7 @@ h3 {
     align-items: center;
   }
   p,
-  h3 {
+  h2 {
     max-width: 408px;
   }
 }
@@ -25,10 +26,10 @@ h3 {
 /*Desktop styles*/
 @media only screen and (min-width: 835px) {
   p,
-  h3 {
+  h2 {
     max-width: 537px;
   }
-  h3 {
+  h2 {
     margin-top: 1rem;
   }
   .news1 {

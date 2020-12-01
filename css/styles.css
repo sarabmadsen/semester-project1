@@ -81,6 +81,7 @@ footer {
   justify-content: space-between;
   align-items: baseline;
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 footer p {
@@ -182,7 +183,8 @@ input[type="submit"] {
   h2 {
     font-size: 1.7rem;
   }
-  h3 {
+  h3,
+  .h3 {
     font-size: 1.5rem;
   }
   li {
@@ -220,7 +222,8 @@ input[type="submit"] {
   h2 {
     font-size: 2rem;
   }
-  h3 {
+  h3,
+  .h3 {
     font-size: 2rem;
   }
   li {

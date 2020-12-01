@@ -58,6 +58,10 @@ p {
   align-items: center;
 }
 
+h2 {
+  font-family: "Dubai Light", Arial, Helvetica, sans-serif;
+}
+
 /*Mobile and tablet styles*/
 @media only screen and (max-width: 834px) {
   .main-content {
