@@ -16,7 +16,7 @@ main img {
   width: 100%;
 }
 
-p {
+.textboxes p {
   padding: 0 10px;
   text-align: center;
 }

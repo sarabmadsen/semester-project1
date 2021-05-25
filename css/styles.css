@@ -18,6 +18,7 @@ body {
 h1 {
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
 }
 
 h2 {
@@ -50,15 +51,13 @@ header img {
 .logo {
   margin: 0 auto;
   padding: 10px;
-  max-width: 1206px;
+  max-width: 900px;
 }
 
 .menu {
   border: 5px solid #fbd200;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  margin: 0 0 40px 0;
 }
 
 li a {
@@ -66,6 +65,11 @@ li a {
   text-decoration: none;
   color: black;
   font-weight: normal;
+}
+
+ul {
+  margin: 0;
+  padding-bottom: 5px;
 }
 
 i {
@@ -85,7 +89,8 @@ footer {
 }
 
 footer p {
-  padding: 5px 20px;
+  padding: 0 20px;
+  margin: 0;
 }
 
 footer a {
@@ -172,6 +177,12 @@ input[type="submit"] {
   font-weight: bold;
 }
 
+.navigation-text {
+  margin-left: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
 /*Mobile and tablet styles*/
 @media only screen and (max-width: 834px) {
   body {
@@ -188,7 +199,7 @@ input[type="submit"] {
     font-size: 1.5rem;
   }
   li {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     display: block;
     padding: 5px;
   }
@@ -227,13 +238,22 @@ input[type="submit"] {
     font-size: 2rem;
   }
   li {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     display: inline-block;
     margin: 0 1.5rem;
-    padding: 10px;
+    padding: 5px;
+  }
+  @keyframes nav-hover {
+    from {
+      background-color: white;
+    }
+    to {
+      background-color: #ed8e00;
+    }
   }
   li:hover {
-    background-color: #ed8e00;
+    animation-name: nav-hover;
+    animation-duration: 2s;
   }
   i {
     font-size: 1.8rem;

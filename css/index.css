@@ -9,6 +9,10 @@ main img {
   max-width: 1334px;
 }
 
+.left-icons i {
+  visibility: hidden;
+}
+
 /*Mobile and tablet styles*/
 
 @media only screen and (max-width: 834px) {
@@ -73,7 +77,13 @@ main img {
   .box3 {
     margin: 2%;
   }
-  .box1 img:hover,
+  .news img,
+  .long img {
+    border: solid 5px #ffffff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
   .long img:hover,
   .news img:hover {
     border: solid 5px #fbd200;
@@ -81,16 +91,13 @@ main img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
   }
-  .box2 img:hover {
-    border: solid 5px #ed8e00;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+  .left-icons i:hover {
+    visibility: hidden;
   }
-  .box3 img:hover {
-    border: solid 5px #2a7009;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+
+  .box1 img:hover {
+    display: block;
+    animation-name: fade-image;
+    animation-duration: 2s;
   }
 }

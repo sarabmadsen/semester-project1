@@ -101,6 +101,12 @@ h2 {
     justify-items: center;
     justify-content: center;
   }
+  .long img {
+    border: solid 5px #ffffff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
   .long img:hover {
     border: solid 5px #fbd200;
     box-sizing: border-box;
